@@ -83,3 +83,10 @@ export const ARCHIVE_BLOCK = `
   populatedDocsTotal
 }
 `
+
+export const TESTING_BLOCK = `
+...on TestingBlock {
+  blockType
+  text
+}
+`

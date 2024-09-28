@@ -10,6 +10,7 @@ import { RelatedPosts, type RelatedPostsProps } from '../../_blocks/RelatedPosts
 import { toKebabCase } from '../../_utilities/toKebabCase'
 import { BackgroundColor } from '../BackgroundColor'
 import { VerticalPadding, VerticalPaddingOptions } from '../VerticalPadding'
+import { TestingBlock } from '../../_blocks/TestingBlock'
 
 const blockComponents = {
   cta: CallToActionBlock,
@@ -18,6 +19,7 @@ const blockComponents = {
   archive: ArchiveBlock,
   relatedPosts: RelatedPosts,
   comments: CommentsBlock,
+  testingBlock: TestingBlock,
 }
 
 export const Blocks: React.FC<{
